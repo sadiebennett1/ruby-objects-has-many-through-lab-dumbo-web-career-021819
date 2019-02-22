@@ -13,6 +13,7 @@ def Artist
   end
   
   def songs
+    Song
   end
   
     
