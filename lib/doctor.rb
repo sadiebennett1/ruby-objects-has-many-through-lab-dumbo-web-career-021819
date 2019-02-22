@@ -18,7 +18,7 @@ class Doctor
   
   def appointments
     Appointment.all.select do |appointment|
-      appointment. doctor variable = self 
+      appointment.doctor = self 
     end 
   end
   
