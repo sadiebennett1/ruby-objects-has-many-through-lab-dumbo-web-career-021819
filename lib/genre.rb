@@ -18,6 +18,7 @@ class Genre
   
   def artists
     songs.each do |song|
+    end
   end
       
 
