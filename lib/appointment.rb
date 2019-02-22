@@ -3,7 +3,7 @@ class Appointment
   
   attr_reader :date, :patient, :doctor 
   
-  def intialize(patient, date, doctor)
+  def initialize(patient, date, doctor)
     @date = date
     @patient = patient 
     @doctor = doctor
